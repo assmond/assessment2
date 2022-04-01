@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Video Game Search Results</title>
+    </head>
+    <body>
+        <div style="text-align:center">
+            <div data-th-if="${size == 0}">
+                No Games Found
+            </div>
+            <div data-th-if="${size != 0}">
+                <table>
+                    <tr data-th-each="game: ${gameList}">
+                        <td data-th-text="${game.name}"></td>
+                        <td data-th-text="${game.rating}"></td>
+                        <td>
+                            <img data-th-src="@{${game.backgroundImage}}"/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

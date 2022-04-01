@@ -1,0 +1,6 @@
+vttp2022\ssf\assessment\videosearch\models\Game.class
+vttp2022\ssf\assessment\videosearch\service\SearchService.class
+vttp2022\ssf\assessment\videosearch\controllers\WebController.class
+vttp2022\ssf\assessment\videosearch\controllers\SearchController.class
+vttp2022\ssf\assessment\videosearch\utils\JSONListConverter.class
+vttp2022\ssf\assessment\videosearch\VideosearchApplication.class
